@@ -1,15 +1,19 @@
 {
   "name": "@tag-tree-logger/mqtt",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "mqtt output for tag-tree-logger",
   "main": "dist/index.js",
   "typings": "dist/definitions/index.d.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "test": "gulp test",
     "build": "gulp build",
     "prepublishOnly": "gulp prePublish",
     "version": "typedoc --out docs src && git add -A docs",
-    "debug": "ts-node debug/index.ts"
+    "debug": "ts-node debug/index.ts",
+    "npminstall": "npm install --registry https://registry.npmjs.com"
   },
   "repository": {
     "type": "git",
