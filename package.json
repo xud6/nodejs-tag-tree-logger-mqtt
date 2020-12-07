@@ -1,6 +1,6 @@
 {
   "name": "@tag-tree-logger/mqtt",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "mqtt output for tag-tree-logger",
   "main": "dist/index.js",
   "typings": "dist/definitions/index.d.ts",
