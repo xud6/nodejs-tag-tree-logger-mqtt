@@ -1,12 +1,12 @@
 import { expect } from 'chai';
 import 'mocha';
 
-import {template_error} from '../src/index';
+import { logDriverMqtt } from '../src/index';
 
-let te = new template_error('a');
-
-describe('template_error test',()=>{
-    it('should be a sub class of error',()=>{
-        expect(te).is.instanceof(Error);
+describe('template_error test', () => {
+    it('should create instance', () => {
+        let i = new logDriverMqtt({ mqttClientConfig: {}, logTopic: "" })
+        expect(i).is.instanceof(logDriverMqtt);
+        i.completeTransfer()
     })
 })
