@@ -1,7 +1,7 @@
 {
-  "name": "@xud6/template_typescript",
-  "version": "1.0.0",
-  "description": "template_typescript",
+  "name": "@tag-tree-logger/mqtt",
+  "version": "0.0.0",
+  "description": "mqtt output for tag-tree-logger",
   "main": "dist/index.js",
   "typings": "dist/definitions/index.d.ts",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xud6/nodejs-template-typescript.git"
+    "url": "https://github.com/xud6/nodejs-tag-tree-logger-mqtt.git"
   },
   "keywords": [],
   "author": "xud6",
